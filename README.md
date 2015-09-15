@@ -18,9 +18,16 @@ Jessica: Monday - Thursday after 12:30
 Wednesday: and drop down options
 
 FIELDS:
-First Name
-Last Name
-Area of Study - Faculty
+- ID
+- First Name
+- Last Name 
+- Age
+- Year of Study 
+- Area of Study - Major
+- Gender - Male, Female, Other
+- Goals - Physical Wellness, Physical Fitness, Academic Achievement, Academic Involvement, Mental Wellness, Social 
+- Availability - Once a Week, Biweekly, Monthly 
+
 
 
 
