@@ -19,6 +19,7 @@ Wednesday: and drop down options
 
 FIELDS:
 - ID
+- email
 - First Name
 - Last Name 
 - Age
