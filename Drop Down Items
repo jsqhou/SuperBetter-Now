@@ -1,17 +1,18 @@
-Goals (Multiple Choice)		Is there a particular area of your life that you wish to work on? Select one or all that apply!	
-Physical Wellness			
-Physical Fitness			
-Academic Achievement			
-Academic Involvement			
-Mental Wellness			
-Social Involvement			
-			
-Gender (Drop Down)			
-Male			
-Female			
-Other			
-			
-Year of Study (Drop Down)		Which year of your programme are you in?	
+We want to get to know you, what is your name?
+[entry box]
+
+Age?
+[entry box]
+
+Gender? (Drop Down)
+Male
+Female
+Other
+
+Which programme are you in?
+[dropdown]
+
+Which year of your programme are you in? (Drop Down)			
 1st			
 2nd			
 3rd			
@@ -21,7 +22,15 @@ Year of Study (Drop Down)		Which year of your programme are you in?
 7th			
 8th			
 9th			
-10+			
+10+	
+
+Is there a particular area of your life that you wish to work on? Select one or all that apply!	(Multiple Choice)		
+Physical Wellness			
+Physical Fitness			
+Academic Achievement			
+Academic Involvement			
+Mental Wellness			
+Social Involvement			
 			
-Availability (Multiple Choice)		How often would you be able to meet up with your accountability partner? 	
+How often would you be able to meet up with your accountability partner? (Multiple Choice)		
 Twice a Week	Once a Week	Once Every Two Weeks	Once a Month
