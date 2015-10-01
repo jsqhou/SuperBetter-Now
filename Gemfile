@@ -12,13 +12,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '3.2.0.0'
 # Use SCSS for stylesheets
 gem 'cancan', '1.6.10'
+
 group :development, :test do
   gem 'byebug'
-end
-
-group :development do
   gem 'web-console', '~> 2.0'
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.9'
   gem 'spring'
 end
 
