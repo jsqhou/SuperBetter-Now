@@ -1,39 +1,6 @@
-<%= form_for(@user) do |f| %>
-  <% if @user.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
-      <ul>
-      <% @user.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :first_name %><br>
-    <%= f.text_field :first_name %>
-  </div>
-  <div class="field">
-    <%= f.label :last_name %><br>
-    <%= f.text_field :last_name %>
-  </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :age %><br>
-    <%= f.text_field :age %>
-  </div>
-  <div class="field">
-    <%= f.label :year_of_study %><br>
-    <%= f.text_field :year_of_study %>
-  </div>
-  <div class="field">
-    <%= f.label :area_of_study %><br>
-    <%= f.select :area_of_study, options_for_select([['Accounting','Accounting'],
+module AreaStudy
+  def initialize()
+    @aos = [['Accounting','Accounting'],
 					['Administration','Administration'],
 					['Agreement Formal','Agreement Formal'],
 					['Agricultural and Resource Economics','Agricultural and Resource Economics'],
@@ -284,22 +251,6 @@
 					['Thesis','Thesis'],
 					['Ukrainian','Ukrainian'],
 					['University','University'],
-					['Women’s Studies','Women’s Studies'] ] )
- %>
-  </div>
-  <div class="field">
-    <%= f.label :gender %><br>
-    <%= f.text_field :gender %>
-  </div>
-  <div class="field">
-    <%= f.label :goals %><br>
-    <%= f.text_field :goals %>
-  </div>
-  <div class="field">
-    <%= f.label :availability %><br>
-    <%= f.text_field :availability %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+					['Women’s Studies','Women’s Studies'] ]
+  end
+end

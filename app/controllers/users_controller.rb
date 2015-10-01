@@ -1,6 +1,9 @@
+require 'area_of_study.rb'
 class UsersController < ApplicationController
+  include AreaStudy
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
+ 
   # GET /users
   # GET /users.json
   def index
